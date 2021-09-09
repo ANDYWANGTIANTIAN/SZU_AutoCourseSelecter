@@ -450,8 +450,8 @@ class LoginPage(object):
         Label(self.page, text='\n\n登录选课系统\n', font=12).grid(row=1, columnspan=2)
         Radiobutton(self.page, text="使用账户密码登录", variable=self.var_SelMode, value=0,
                     command=self.SelMode).grid(row=2)
-        Radiobutton(self.page, text="使用Cookie登录", variable=self.var_SelMode, value=1,
-                    command=self.SelMode).grid(row=2, column=1)
+        Radiobutton(self.page, text="使用Cookie登录(尚未完成)", variable=self.var_SelMode, value=1,
+                    command=self.SelMode,state="disabled").grid(row=2, column=1)
         Label(self.page, textvariable=self.labelText1).grid(row=3, pady=10)
 
         Entry(self.page, textvariable=self.labelEntry1).grid(row=3, column=1)
