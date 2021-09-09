@@ -8,10 +8,6 @@ import settings
 import util
 
 
-# 请求协议头（请勿修改）
-# 校外VPN
-
-
 def get_vtoken():
     url = util.get_url("xsxkapp/sys/xsxkapp/student/4/vcode.do?timestamp={}").format(
         util.get_timestamp())
