@@ -28,4 +28,4 @@ pyinstaller -D main.spec
 5.在dist文件夹内找到main.exe即可运行
 
 ##进一步了解本软件的使用方式
-请查看仓库内的 [使用说明.pdf]()
+请查看仓库内的 [使用说明.pdf](https://github.com/ANDYWANGTIANTIAN/SZU_AutoCourseSelecter/blob/master/%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.pdf)
