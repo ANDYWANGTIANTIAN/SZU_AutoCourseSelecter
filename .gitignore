@@ -1,4 +1,5 @@
-/*
-!.gitignore
-!/image
-!*.py
+*.pyc
+/build
+/dist/
+/build/
+/.idea/
