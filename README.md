@@ -1,5 +1,5 @@
 # SZU_AutoCourseSelecter
-##关于本软件
+## 关于本软件
 本软件由 [Matt-Dong123](https://github.com/Matt-Dong123) 和 [ANDYWANGTIANTIAN](github.com/ANDYWANGTIANTIAN) 开发制作，可以在深圳大学本科选课系统实现自动选课功能
 
 ## 如何使用
