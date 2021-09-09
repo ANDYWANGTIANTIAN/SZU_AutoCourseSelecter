@@ -98,8 +98,3 @@ def getData(loginName):
     settings.user_department = r.json()['data']['departmentName']
     settings.user_class = r.json()['data']['schoolClassName']
     settings.electiveBatchCode = r.json()['data']['electiveBatch']['code']
-
-
-if __name__ == '__main__':
-    vtoken = get_vtoken()
-    Code = get_vimage(vtoken)

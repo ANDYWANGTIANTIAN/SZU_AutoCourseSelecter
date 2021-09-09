@@ -791,6 +791,3 @@ def encrypt(s, conn):
     # return str(base64.b64encode(result.encode('utf-8')), 'utf-8')
     conn.send(str(base64.b64encode(result.encode('utf-8')), 'utf-8'))
     conn.close()
-
-# if __name__ == '__main__':
-#     print(encrypt("test123456.123654"))

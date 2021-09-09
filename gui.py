@@ -716,7 +716,3 @@ def StartRun():
     root.iconbitmap('image/favicon.ico')
     InfoPage(root)
     root.mainloop()
-
-
-if __name__ == '__main__':
-    StartRun()

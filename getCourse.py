@@ -109,6 +109,3 @@ def getCourse(type, methods, query=''):
                 temp.append(course['tcList'][j]['teachingPlace'])
                 res.append(temp)
     return res
-
-# if __name__ == '__main__':
-#     downloads()
