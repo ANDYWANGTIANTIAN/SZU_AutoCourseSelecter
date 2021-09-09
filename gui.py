@@ -385,7 +385,7 @@ class InfoPage(object):
         Label(self.page, image=developer_png, height=250).grid(row=1, column=0, columnspan=2)
         Label(self.page,
               text='本软件由:' + '\n' + 'Matt-Dong123(github.com/Matt-Dong123)' + '\n' + '和' + '\n' + 'ANDYWANGTIANTIAN(github.com/ANDYWANGTIANTIAN)'
-                   + '\n' + '开发制作，项目地址https://github.com/Matt-Dong123/SZU_AutoCourseSelecter'
+                   + '\n' + '开发制作，项目地址https://github.com/ANDYWANGTIANTIAN/SZU_AutoCourseSelecter'
                             '，可以在深圳大学本科选课系统实现自动选课功能，详细使用方法请参考README.md'
                             '。本软件仅供学习交流使用，请勿用于真实选课环境中！！因使用本软件造成的一切后果均由软件使用者承担，软件开发者不承担任何责任！！如您同意以上免责声明，请点击“同意并进入”按钮，如不同意，请点击退出\n\n',
               font=12,
@@ -420,7 +420,7 @@ class AboutFrame(Frame):
         Button(self, text='在github反馈问题', font=12, command=self.GoToGithub).grid(row=3, columnspan=2)
 
     def GoToGithub(self):
-        webbrowser.open("http://www.baidu.com", new=0)
+        webbrowser.open("https://github.com/ANDYWANGTIANTIAN/SZU_AutoCourseSelecter", new=0)
 
 
 class LoginPage(object):
