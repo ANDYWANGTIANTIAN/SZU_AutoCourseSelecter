@@ -13,6 +13,7 @@ import encrypt
 import getCourse
 import login
 import settings
+import multiprocessing_win
 
 developer_png = None
 donate_png = None
