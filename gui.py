@@ -413,7 +413,7 @@ class AboutFrame(Frame):
         Label(self,
               text='本软件由:' + '\n' + 'Matt-Dong123(github.com/Matt-Dong123)' + '\n' + '和' + '\n' + 'ANDYWANGTIANTIAN(github.com/ANDYWANGTIANTIAN)'
                    + '\n' + '开发制作，可以在深圳大学本科选课系统实现自动选课功能，详细使用方法请参考README.md'
-                            '。本软件仅供学习交流使用，请勿用于真实选课环境中！！因使用本软件造成的一切后果均由软件使用者承担，软件开发者不承担任何责任！如发现软件存在问题，欢迎点击下方按钮进行反馈\n',
+                            '。本软件仅供学习交流使用，请勿用于真实选课环境中！！因使用本软件造成的一切后果均由软件使用者承担，软件开发者不承担任何责任！如发现软件存在问题，欢迎点击下方按钮进行反馈，或联系以下邮箱：Matt（2274006799@qq.com）或Andy（2309724277@qq.com）\n',
               font=12,
               wraplength=550).grid(row=2, column=0, columnspan=2)
 
@@ -451,7 +451,7 @@ class LoginPage(object):
         Radiobutton(self.page, text="使用账户密码登录", variable=self.var_SelMode, value=0,
                     command=self.SelMode).grid(row=2)
         Radiobutton(self.page, text="使用Cookie登录(尚未完成)", variable=self.var_SelMode, value=1,
-                    command=self.SelMode,state="disabled").grid(row=2, column=1)
+                    command=self.SelMode, state="disabled").grid(row=2, column=1)
         Label(self.page, textvariable=self.labelText1).grid(row=3, pady=10)
 
         Entry(self.page, textvariable=self.labelEntry1).grid(row=3, column=1)
