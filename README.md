@@ -31,3 +31,9 @@ pyinstaller -D main.spec
 
 ## 进一步了解本软件的使用方式
 请查看仓库内的 [使用说明.pdf](https://github.com/ANDYWANGTIANTIAN/SZU_AutoCourseSelecter/blob/master/%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.pdf)
+
+
+## 如对本软件的使用有疑问，提出建议以及相关bug反馈，请联系：
+
+> Matt（2274006799@qq.com）
+> Andy（2309724277@qq.com）
