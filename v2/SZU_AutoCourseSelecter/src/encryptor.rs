@@ -1,6 +1,8 @@
 extern crate quick_js;
+extern crate base64;
 
 use quick_js::{Context, JsValue};
+use base64::encode;
 
 pub struct QuickJsEncryptor {
     context: Context,
@@ -789,6 +791,7 @@ function generateKeys(r) {
 
     "#;
 
+
         // 创建一个 JavaScript 运行上下文
         let context = Context::new().unwrap();
         context.eval(js_code).unwrap();
@@ -805,7 +808,8 @@ function generateKeys(r) {
         ]).unwrap();
 
         if let JsValue::String(encrypted_data) = result {
-            encrypted_data
+            // 进行 Base64 编码
+            encode(encrypted_data)
         } else {
             String::new()
         }
