@@ -2,12 +2,14 @@
   <configuration default="false" name="Run SZU_AutoCourseSelecter" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
     <option name="command" value="run --package SZU_AutoCourseSelecter --bin SZU_AutoCourseSelecter" />
     <option name="workingDirectory" value="file://$PROJECT_DIR$/v2/SZU_AutoCourseSelecter" />
-    <envs />
+    <envs>
+      <env name="CARGO_PROFILE_DEV_BUILD_OVERRIDE_DEBUG" value="true" />
+    </envs>
     <option name="emulateTerminal" value="true" />
     <option name="channel" value="DEFAULT" />
     <option name="requiredFeatures" value="true" />
     <option name="allFeatures" value="false" />
-    <option name="withSudo" value="false" />
+    <option name="withSudo" value="true" />
     <option name="buildTarget" value="REMOTE" />
     <option name="backtrace" value="SHORT" />
     <option name="isRedirectInput" value="false" />

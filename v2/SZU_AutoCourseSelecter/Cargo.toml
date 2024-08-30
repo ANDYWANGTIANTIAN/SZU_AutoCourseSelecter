@@ -5,3 +5,4 @@ edition = "2021"
 
 [dependencies]
 iced = "0.12.1"
+quick-js = "0.4.1"
