@@ -1,6 +1,7 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Run" type="CargoCommandRunConfiguration" factoryName="Cargo Command" nameIsGenerated="true">
-    <option name="command" value="run" />
+  <configuration default="false" name="Run SZU_AutoCourseSelecter" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
+    <option name="command" value="run --package SZU_AutoCourseSelecter --bin SZU_AutoCourseSelecter" />
+    <option name="workingDirectory" value="file://$PROJECT_DIR$/v2/SZU_AutoCourseSelecter" />
     <envs />
     <option name="emulateTerminal" value="true" />
     <option name="channel" value="DEFAULT" />
